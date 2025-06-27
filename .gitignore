@@ -1,0 +1,65 @@
+dist
+dist-ssr
+*.local
+
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+
+# Optional eslint cache
+.eslintcache
+
+
+# dotenv environment variables file
+# .env
+# .env.test
+# .env*.local
+# .env.*
+
+# rollup.js default build output
+dist/
+
+# Temporary folders
+tmp/
+temp/
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
